@@ -36,9 +36,11 @@ def cr_to_hit_ranged(tab):
 
 to_hit_ranged = []
 cr_to_hit_ranged(to_hit_ranged)
-print(to_hit_ranged)
 to_wound = []
 cr_to_wound(to_wound)
 to_hit_cc = []
 cr_to_hit_cc(to_hit_cc)
 
+
+for x in to_wound:
+	print(x)

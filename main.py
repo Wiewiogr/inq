@@ -10,8 +10,10 @@ henchmans = Squad()
 henchmans.units = [cr_acolyte("Andrzej"),cr_acolyte("Seba"),cr_acolyte("Janusz")]
 henchmans.show_members()
 
-me.shoot(enemy,0)
+me.attack(enemy,0)
 me.show_info()
+
+
 
 
 #while True:
