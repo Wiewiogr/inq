@@ -7,20 +7,6 @@ def dice():
 
 
 class Unit(object):
-	"""
-	rank = ""
-	name = ""
-	t = 4
-	weapons = []
-	bs = 4
-	w = 1
-	save = 4
-	ws = 4
-	i = 4
-	a = 1
-	inv_save = 7
-	"""
-
 	def __init__(self,_name, _rank,  _bs,_ws,_s, _t,_w,_i,_a,_save,_inv_save, _weapons, _cc_weapons):
 		self.bs = _bs
 		self.ws = _ws
@@ -111,20 +97,3 @@ class Unit(object):
 		
 def cr_acolyte(name):
 	return Unit(name,"Acolyte",3,3,3,3,1,3,1,5,7,[cr_lasgun()],[cr_base_ccw()])
-
-"""
-class Acolyte(Unit):
-	t = 3
-	weapons = [cr_lasgun()]
-	bs = 3
-	w = 1
-	save = 5
-	rank = "Acolyte"
-	def __init__(self, _name):
-		self.name =_name
-
-"""
-
-
-
-print("SADFSADF")

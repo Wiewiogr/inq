@@ -40,7 +40,3 @@ to_wound = []
 cr_to_wound(to_wound)
 to_hit_cc = []
 cr_to_hit_cc(to_hit_cc)
-
-
-for x in to_wound:
-	print(x)
